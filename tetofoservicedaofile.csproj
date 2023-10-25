@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>tetofoservicedaofile</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>PavelBobek</Authors>
+    <Company>tetofo</Company>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="tetofomodel" Version="1.0.3" />
+    <PackageReference Include="tetofoservicedao" Version="1.0.3" />
+    <PackageReference Include="tetofoservicefileserializer" Version="1.0.0" />
+  </ItemGroup>
+</Project>
